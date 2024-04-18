@@ -1,0 +1,687 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Job board HTML-5 Template </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+		<!-- CSS here -->
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="assets/css/flaticon.css">
+            <link rel="stylesheet" href="assets/css/price_rangs.css">
+            <link rel="stylesheet" href="assets/css/slicknav.css">
+            <link rel="stylesheet" href="assets/css/animate.min.css">
+            <link rel="stylesheet" href="assets/css/magnific-popup.css">
+            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="assets/css/themify-icons.css">
+            <link rel="stylesheet" href="assets/css/slick.css">
+            <link rel="stylesheet" href="assets/css/nice-select.css">
+            <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+
+
+
+            <style>
+                .container1
+                {
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   flex-wrap: wrap;
+                   
+                }
+                .container1 .card
+                {
+                   width: 330px;
+                   height: 416px;
+                   padding: 60px 30px;
+                   margin: 20px;
+                   background: #f2f3f7;
+                   box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+                               -0.5em -0.5em 1em #ffffff;
+                   border-radius: 20px;
+                }
+                .container1 .card .content
+                {
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   flex-direction: column;
+                }
+                .container1 .card .content .imgBx
+                {
+                   width: 180px;
+                   height: 180px;
+                   border-radius: 50%;
+                   position: relative;
+                   margin-bottom: 20px;
+                   overflow: hidden;
+                }
+                .container1 .card .content .imgBx img
+                {
+                   position: absolute;
+                   top: 0;
+                   left: 0;
+                   width: 100%;
+                   height: 100%;
+                   object-fit: cover;
+                }
+                .container1 .card .content .contentBx h4
+                {
+                   color: #36187d;
+                   font-size: 1.2rem;
+                   font-weight: bold;
+                   text-align: center;
+                   letter-spacing: 1px;
+                }
+                .container1 .card .content .contentBx h5
+                {
+                   color: #6c758f;
+                   font-size: 1.1rem;
+                   font-weight: bold;
+                   text-align: center;
+                }
+                .container1 .card .content .sci
+                {
+                   margin-top: 20px;
+                }
+                .container1 .card .content .sci a
+                {
+                   text-decoration: none;
+                   color: #6c758f;
+                   font-size: 30px;
+                   margin: 10px;
+                   transition: color 0.4s;
+                }
+                .container1 .card .content .sci a:hover
+                {
+                   color: #0196e3;
+                }
+                /*   colors
+                        #f2f3f7
+                        #d2dce9
+                        #36187d
+                        #6c758f
+                        #0196e3
+                 */
+                
+                 .container1 .card .content .sci {
+                   margin-top: 20px;
+                   display: flex; /* Add this property to make the child elements inline */
+                   justify-content: center; /* Center the child elements horizontally */
+                   align-items: center; /* Center the child elements vertically */
+                }
+                
+                .container1 .card .content .sci a {
+                   text-decoration: none;
+                   color: #6c758f;
+                   font-size: 30px;
+                   margin: 10px;
+                   transition: color 0.4s;
+                }
+                
+                .container1 .card .content .sci a:hover {
+                   color: #0196e3;
+                }
+                .container1 {
+                   /* Existing styles for .container1 */
+                   margin-top: 0px; /* Adjust the margin-top as needed */
+                   margin-bottom: 50px;
+                }
+                
+                    </style>
+   </head>
+
+   <body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/neuralogo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
+       <div class="header-area header-transparrent">
+           <div class="headder-top header-sticky">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-2">
+                            <!-- Logo -->
+                            <div class="logo"> <a href="index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+                                <img src="assets/img/logo/neura1logo.png" alt="Logo" height="85" width="85" style="position: absolute; top: 10000; left: 0; z-index: 1; ">
+                                <p style="margin-left: 90px; margin-top: 20px;font-size: 24px; font-weight: bold;">NeuraNauts</p>
+                            </a>
+                            </div>  
+                        </div>
+                        <div class="col-lg-9 col-md-9">
+                            <div class="menu-wrapper">
+                                <!-- Main-menu -->
+                                <div class="main-menu">
+                                    <nav class="d-none d-lg-block">
+                                        <ul id="navigation">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="job_listing.html">Find a Jobs </a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="#">Page</a>
+                                                <ul class="submenu">
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="single-blog.html">Blog Details</a></li>
+                                                    <li><a href="elements.html">Elements</a></li>
+                                                    <li><a href="job_details.html">job Details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>          
+                                <!-- Header-btn -->
+                               <!--  <div class="header-btn d-none f-right d-lg-block">
+                                    <a href="#" class="btn head-btn1">Register</a>
+                                    <a href="#" class="btn head-btn2">Login</a>
+                                </div>-->
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </div>
+        <!-- Header End -->
+    </header>
+    <main>
+
+        <!-- Hero Area Start-->
+        <div class="slider-area ">
+        <div class="single-slider section-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/about.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap text-center">
+                            <h2>About us</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Hero Area End -->
+        <!-- Support Company Start-->
+        <div class="support-company-area fix section-padding2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="right-caption">
+                            <!-- Section Tittle -->
+                            <div class="section-tittle section-tittle2">
+                                <span>What we are doing</span>
+                                <h2>Recrutement Guidance With OGHMA</h2>
+                            </div>
+                            <style>
+                                /* CSS pour ajuster le paragraphe */
+                                .bigger-font {
+                                    font-size: 18px !important; /* Adjust the font size as needed */
+                                    font-weight: 600; /* You can adjust other styles here as well */
+                                }
+                            </style>
+                            <div class="support-caption">
+                                <p class="bigger-font">Our platform utilizes cutting-edge AI technology to deliver real-time assessments, professional guidance and comprehensive reports. We bridge the gap between recruiters and candidates by offering actionable insights and personalized recommendations based on advanced data analytics. Experience the future of recruitment with our innovative approach</p>
+                                <p>•  AI-Powered Assessments: Utilize advanced AI technology for real-time assessments.</p>
+                                <p>•  Professional Guidance: Receive expert advice and support throughout the recruitment process.</p>
+                                <p>•  Comprehensive Reports: Access detailed reports providing actionable insights.</p>
+                                <p>•  Personalized Recommendations: Benefit from tailored recommendations based on data analytics.</p>
+                                <a href="about.html" class="btn post-btn">Post a job</a>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="support-location-img" style="position: relative;">
+                            <video id="myVideo"  loop style="height: 500px; width: auto; position: relative; top: -120px;">
+                                <source src="assets/img/logo/videoabout.mp4" type="video/mp4" autoplay>
+                                Your browser does not support the video tag.
+                            </video>
+                            <script>
+                                // Get the video element
+                                var video = document.getElementById("myVideo");
+                    
+                                // Play the video when the page loads
+                                video.play();
+                            </script>
+                            <div class="support-img-cap text-center">
+                                <p>Since</p>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Support Company End-->
+        <!-- How  Apply Process Start-->
+        <div class="apply-process-area apply-bg pt-150 pb-150" data-background="assets/img/gallery/how-applybg.png">
+            <div class="container">
+                <!-- Section Tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle white-text text-center">
+                            <span>Apply process</span>
+                            <h2> How it works</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- Apply Process Caption -->
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-process text-center mb-30">
+                            <div class="process-ion">
+                                <span class="flaticon-search"></span>
+                            </div>
+                            <div class="process-cap">
+                                <h5>1. Search a job</h5>
+                            <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-process text-center mb-30">
+                            <div class="process-ion">
+                                <span class="flaticon-curriculum-vitae"></span>
+                            </div>
+                            <div class="process-cap">
+                                <h5>2. Apply for job</h5>
+                            <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-process text-center mb-30">
+                            <div class="process-ion">
+                                <span class="flaticon-tour"></span>
+                            </div>
+                            <div class="process-cap">
+                                <h5>3. Get your job</h5>
+                            <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- How  Apply Process End-->
+        <!-- Testimonial Start -->
+        <section class="package" id="About">
+            <div class="container">
+                <br>
+    <h2 class="h2 section-title">About US</h2>
+              <p class="section-subtitle">Meet our team!</p>
+    
+              
+    
+              <!--<p class="section-text">
+                Meet our amazing team named Humanoids.
+              </p>-->
+            </div> 
+            <style>
+                .section-text1 {
+                    font-size: 1.2rem;
+                    line-height: 1.6;
+                    text-align: justify;
+                    max-width: 800px;
+                    margin: 0 auto;
+                }
+            </style>
+            <p class="section-text1">
+                The developers behind Oghma are the NeuraNauts, a talented team of AI engineering students from ESPRIT. With a passion for artificial intelligence and technology, the NeuraNauts bring innovative solutions to the field of recruitment and skill development. Leveraging their expertise in AI and machine learning, they have designed Oghma to revolutionize the hiring process and enhance skill development. Their dedication and commitment to excellence drive Oghma's mission to deliver cutting-edge tools and insights for recruiters and candidates alike.
+            </p>
+          </section>
+    <div class="container1">
+        <div class="card">
+          <div class="content">
+              <div class="imgBx">
+                  <img src="/static/assets/images/nour.jpg" alt="">
+              </div>
+              <div class="contentBx">
+                  <h4>✨Balkis Haj Harrouchi✨</h4>
+                  <h5>Developer</h5>
+              </div>
+              <div class="sci">
+                  <a href="https://www.facebook.com/ben.ammar.nour?locale=fr_FR"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="https://www.instagram.com/ben_ammar_nour/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  <a href="https://www.linkedin.com/in/nour-ben-ammar-1a7a5424b/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </div>
+          </div>
+      </div>
+        <div class="card">
+          <div class="content">
+              <div class="imgBx">
+                  <img src="/static/assets/images/achref.jpeg" alt="">
+              </div>
+              <div class="contentBx">
+                  <h4>🤖Achref Essefi🤖</h4>
+                  <h5>Scrum Master</h5>
+              </div>
+              <div class="sci">
+                  <a href="https://www.facebook.com/essefi.achref1?locale=fr_FR"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="https://www.instagram.com/achref.essefi/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  <a href="https://www.linkedin.com/in/achref-essefi-bbb45826b/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="card">
+        <div class="content">
+            <div class="imgBx">
+                <img src="/static/assets/images/youcef.jpg" alt="">
+            </div>
+            <div class="contentBx">
+                <h4>💪Zeineb Boussaidi💪</h4>
+                <h5>Project owner</h5>
+            </div>
+            <div class="sci">
+                <a href="https://www.facebook.com/profile.php?id=100005535307802&locale=fr_FR"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/youcef_ouhab/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/youcef-ouhab/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    
+      <div class="card">
+          <div class="content">
+              <div class="imgBx">
+                  <img src="/static/assets/images/hadil.jpg" alt="">
+              </div>
+              <div class="contentBx">
+                  <h4>❤️Nourchene Larroussi❤️</h4>
+                  <h5>Developer</h5>
+              </div>
+              <div class="sci">
+                  <a href="https://www.facebook.com/hadil.haffouz.3?locale=fr_FR"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="https://www.instagram.com/hadyyl_haffouz_/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  <a href="https://www.linkedin.com/in/hadil-haffouz-53557722a/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </div>
+          </div>
+      </div>
+      
+      <div class="card">
+          <div class="content">
+              <div class="imgBx">
+                  <img src="/static/assets/images/chedli.jpg" alt="">
+              </div>
+              <div class="contentBx">
+                  <h4>Chayma Mabrouk</h4>
+                  <h5>Developer</h5>
+              </div>
+              <div class="sci">
+                  <a href="https://www.facebook.com/chedlyyg?locale=fr_FR"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="https://www.instagram.com/cchedly/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  <a href="https://www.linkedin.com/in/chedhly-ghorbel-ab285428b/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="content">
+              <div class="imgBx">
+                  <img src="/static/assets/images/fatma.jpeg" alt="">
+              </div>
+              <div class="contentBx">
+                  <h4>📏Wided Askri📏</h4>
+                  <h5>Developer</h5>
+              </div>
+              <div class="sci">
+                  <a href="https://www.facebook.com/profile.php?id=100077366781360&locale=fr_FR"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="https://www.instagram.com/fatma_ben_lakhdhar/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  <a href="https://www.linkedin.com/in/fatma-ben-lakhdhar-0a5382292/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </div>
+          </div>
+      </div>
+  
+      
+  </div>
+  
+        <!-- Online CV Area End-->
+    
+        <!-- Blog Area Start -->
+        <div class="home-blog-area blog-h-padding">
+            <div class="container">
+                <!-- Section Tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle text-center">
+                            <span>Our latest blog</span>
+                            <h2>Our recent news</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="home-blog-single mb-30">
+                            <div class="blog-img-cap">
+                                <div class="blog-img">
+                                    <img src="assets/img/blog/home-blog1.jpg" alt="">
+                                    <!-- Blog date -->
+                                    <div class="blog-date text-center">
+                                        <span>24</span>
+                                        <p>Now</p>
+                                    </div>
+                                </div>
+                                <div class="blog-cap">
+                                    <p>|   Properties</p>
+                                    <h3><a href="single-blog.html">Footprints in Time is perfect House in Kurashiki</a></h3>
+                                    <a href="#" class="more-btn">Read more »</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="home-blog-single mb-30">
+                            <div class="blog-img-cap">
+                                <div class="blog-img">
+                                    <img src="assets/img/blog/home-blog2.jpg" alt="">
+                                    <!-- Blog date -->
+                                    <div class="blog-date text-center">
+                                        <span>24</span>
+                                        <p>Now</p>
+                                    </div>
+                                </div>
+                                <div class="blog-cap">
+                                    <p>|   Properties</p>
+                                    <h3><a href="single-blog.html">Footprints in Time is perfect House in Kurashiki</a></h3>
+                                    <a href="#" class="more-btn">Read more »</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Area End -->
+
+    </main>
+    <footer>
+        <!-- Footer Start-->
+        <div class="footer-area footer-bg footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                       <div class="single-footer-caption mb-50">
+                         <div class="single-footer-caption mb-30">
+                             <div class="footer-tittle">
+                                 <h4>About Us</h4>
+                                 <div class="footer-pera">
+                                     <p>Heaven frucvitful doesn't cover lesser dvsays appear creeping seasons so behold.</p>
+                                </div>
+                             </div>
+                         </div>
+
+                       </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Contact Info</h4>
+                                <ul>
+                                    <li>
+                                    <p>Address :Your address goes
+                                        here, your demo address.</p>
+                                    </li>
+                                    <li><a href="#">Phone : +8880 44338899</a></li>
+                                    <li><a href="#">Email : info@colorlib.com</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Important Link</h4>
+                                <ul>
+                                    <li><a href="#"> View Project</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Testimonial</a></li>
+                                    <li><a href="#">Proparties</a></li>
+                                    <li><a href="#">Support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Newsletter</h4>
+                                <div class="footer-pera footer-pera2">
+                                 <p>Heaven fruitful doesn't over lesser in days. Appear creeping.</p>
+                             </div>
+                             <!-- Form -->
+                             <div class="footer-form" >
+                                 <div id="mc_embed_signup">
+                                     <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                     method="get" class="subscribe_form relative mail_part">
+                                         <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
+                                         class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
+                                         onblur="this.placeholder = ' Email Address '">
+                                         <div class="form-icon">
+                                             <button type="submit" name="submit" id="newsletter-submit"
+                                             class="email_icon newsletter-submit button-contactForm"><img src="assets/img/icon/form.png" alt=""></button>
+                                         </div>
+                                         <div class="mt-10 info"></div>
+                                     </form>
+                                 </div>
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <!--  -->
+               <div class="row footer-wejed justify-content-between">
+                       <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                          <!-- logo -->
+                          <div class="footer-logo mb-20">
+                            <a href="index.html"><img src="assets/img/logo/neura0logo.png" width="170" height="170" alt=""></a>
+                          </div>
+                       </div>
+                       <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="footer-tittle-bottom">
+                            <span>5000+</span>
+                            <p>Talented Hunter</p>
+                        </div>
+                       </div>
+                       <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                            <div class="footer-tittle-bottom">
+                                <span>451</span>
+                                <p>Talented Hunter</p>
+                            </div>
+                       </div>
+                       <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                            <!-- Footer Bottom Tittle -->
+                            <div class="footer-tittle-bottom">
+                                <span>568</span>
+                                <p>Talented Hunter</p>
+                            </div>
+                       </div>
+               </div>
+            </div>
+        </div>
+        <!-- footer-bottom area -->
+        <div class="footer-bottom-area footer-bg">
+            <div class="container">
+                <div class="footer-border">
+                     <div class="row d-flex justify-content-between align-items-center">
+                         <div class="col-xl-10 col-lg-10 ">
+                             <div class="footer-copy-right">
+                                 
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                             </div>
+                         </div>
+                         <div class="col-xl-2 col-lg-2">
+                             <div class="footer-social f-right">
+                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                 <a href="#"><i class="fab fa-twitter"></i></a>
+                                 <a href="#"><i class="fas fa-globe"></i></a>
+                                 <a href="#"><i class="fab fa-behance"></i></a>
+                             </div>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+
+	<!-- JS here -->
+	
+		<!-- All JS Custom Plugins Link Here here -->
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+		<!-- Jquery, Popper, Bootstrap -->
+		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+	    <!-- Jquery Mobile Menu -->
+        <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+		<!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <script src="./assets/js/price_rangs.js"></script>
+		<!-- One Page, Animated-HeadLin -->
+        <script src="./assets/js/wow.min.js"></script>
+		<script src="./assets/js/animated.headline.js"></script>
+        <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+		<!-- Scrollup, nice-select, sticky -->
+        <script src="./assets/js/jquery.scrollUp.min.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+		<script src="./assets/js/jquery.sticky.js"></script>
+        
+        <!-- contact js -->
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/jquery.form.js"></script>
+        <script src="./assets/js/jquery.validate.min.js"></script>
+        <script src="./assets/js/mail-script.js"></script>
+        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+        
+		<!-- Jquery Plugins, main Jquery -->	
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
+        
+    </body>
+</html>
